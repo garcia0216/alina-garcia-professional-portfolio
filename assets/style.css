@@ -9,9 +9,14 @@ padding: 45px;
 background: #13293d;
 color: #fff;
 
+
 }
 
 header h1 {
+display: inline-block;
+height: 25px;
+
+
     
 }
 
@@ -19,8 +24,6 @@ header a {
     color: white;
 
 }
-
-
 
 section {
     height: 100px;
@@ -54,6 +57,8 @@ main {
     font-style: oblique;
 }
 
+
+
 footer {
 
 height: 25px;
@@ -61,9 +66,13 @@ width: 1024;
 text-align: center;
 display: flex; 
 justify-content: space-around;
-padding: 45px;
+padding: 25px;
 background: #13293d;
 color: #fff;
     
     
+}
+
+footer a {
+    color: white;
 }
