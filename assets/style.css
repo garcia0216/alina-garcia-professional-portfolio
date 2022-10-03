@@ -1,19 +1,32 @@
 header {
 /* Forces elements to the next line if they don't fit */ 
-height: 25px;
+height: 125px;
 width: 1024;
 text-align: center;
 display: flex; 
-justify-content: space-around;
+justify-content: space-between;
 padding: 45px;
 background: #13293d;
 color: #fff;
-
+padding-top: 20px;
+padding-bottom: 20px;
+   
+ 
+    
 
 }
 
+.logo {
+    display: flex;
+   justify-items: flex-start;
+    
+    
+}
+
 header h1 {
-display: inline-block;
+/* display: inline-block; */
+margin: 5px 5px;
+padding-bottom: 20px;
 height: 25px;
 
 
@@ -22,6 +35,18 @@ height: 25px;
 
 header a {
     color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: end;
+    background-color: lightslategray
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-evenly;
+    width: 60%;
 
 }
 
@@ -37,16 +62,7 @@ section {
 }
 
 
-nav {
-    display: flex;
-    justify-content: end;
-    background-color: 
-    yellow;
-    margin-top: 10px;
-    padding: 10px;
-    height: 118px;
-    width: 1024;
-}
+
 
 main {
 
@@ -58,17 +74,41 @@ main {
 }
 
 
+    
+.flex-container {
+    display: flex;
+    flex: row;
+    justify-content: space-around;
+    align-items: center;
+        
+}
+
+.herobox1 {
+flex: 3;
+
+
+}
+
+.herobox2 {
+   display: inline-flex;
+    flex: 1;
+    
+    
+}
+
+
 
 footer {
 
-height: 25px;
+height: 125px;
 width: 1024;
-text-align: center;
+align-items: flex-start;
 display: flex; 
 justify-content: space-around;
 padding: 25px;
 background: #13293d;
 color: #fff;
+font-style: oblique;
     
     
 }
