@@ -1,52 +1,45 @@
+
+
 header {
 /* Forces elements to the next line if they don't fit */ 
 height: 125px;
 width: 1024;
-text-align: center;
+align-content: center;
 display: flex; 
 justify-content: space-between;
-padding: 45px;
-background: #13293d;
+background-color: black;
 color: #fff;
-padding-top: 20px;
-padding-bottom: 20px;
    
- 
-    
 
 }
 
 .logo {
+    
     display: flex;
-   justify-items: flex-start;
-    
-    
+    justify-items: flex-start;
+        
 }
 
-header h1 {
-/* display: inline-block; */
-margin: 5px 5px;
+header h1, a {
+min-height: 100px;
+align-items: center;
 padding-bottom: 20px;
 height: 25px;
+color: white;
+justify-content: center;
+font-family:cursive;
 
 
     
-}
-
-header a {
-    color: white;
-}
-
-nav {
-    display: flex;
-    justify-content: end;
-    background-color: lightslategray
 }
 
 .nav-links {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 50px;
     width: 60%;
+  
 
 }
 
@@ -58,19 +51,27 @@ section {
     text-align: end;
     padding: 10px;
     margin-bottom: 10px;
+    font-family: cursive;
+    font-size: large;
     
 }
 
-
+.container {
+    background-color: red;
+    min-height: 200px;
+    font-family: cursive;
+    color: white;
+}
 
 
 main {
 
-    background-color: 
+    background-color: black;
     lightblue;
     height: 600px;
     width: 1024;
     font-style: oblique;
+    color: white;
 }
 
 
@@ -78,25 +79,34 @@ main {
 .flex-container {
     display: flex;
     flex: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
         
 }
 
 .herobox1 {
-flex: 3;
+min-height: 300px;
+width: 55%;
+flex: 2;
 
 
 }
 
 .herobox2 {
-   display: inline-flex;
-    flex: 1;
+  
+min-height: 300px;
+width: 33%;
+
     
     
 }
 
-
+.herobox3 {
+    min-height: 300px;
+    width: 33%;
+    flex: 1;
+    
+}
 
 footer {
 
@@ -106,13 +116,14 @@ align-items: flex-start;
 display: flex; 
 justify-content: space-around;
 padding: 25px;
-background: #13293d;
+background-color: gray;
 color: #fff;
 font-style: oblique;
     
     
 }
 
-footer a {
+footer, a {
+   
     color: white;
 }
