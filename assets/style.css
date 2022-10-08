@@ -1,14 +1,19 @@
-
+* body {
+    
+    font-family: sans-serif;
+    font-weight: bold;
+    background-color:#fcde67;
+    
+}
 
 header {
 /* Forces elements to the next line if they don't fit */ 
 height: 125px;
-width: 1024;
 align-content: center;
 display: flex; 
 justify-content: space-between;
-background-color: black;
-color: #fff;
+background-color:#5bccf6;
+color: #030e12;
    
 
 }
@@ -20,110 +25,124 @@ color: #fff;
         
 }
 
-header h1, a {
-min-height: 100px;
-align-items: center;
-padding-bottom: 20px;
-height: 25px;
-color: white;
-justify-content: center;
-font-family:cursive;
+.header h1, a {
 
+display: inline-block;
+min-height: 100px;
+text-align: center;
+padding-bottom: 50px;
+height: 25px;
+color: #030e12;
+justify-content: center;
 
     
 }
 
 .nav-links {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     padding-top: 50px;
     width: 60%;
+    
   
 
 }
 
 section {
-    height: 100px;
-    width: 1024;
-    background: gray;
-    color: #fff;
+    height: 200px;
+    background: #1b4d89;
+    color: #030e12;
     text-align: end;
     padding: 10px;
     margin-bottom: 10px;
-    font-family: cursive;
     font-size: large;
     
 }
 
 .container {
-    background-color: red;
+    background-color:#5bccf6;
     min-height: 200px;
-    font-family: cursive;
-    color: white;
+    width: 600px;
+    font-style: oblique;
+    color: #030e12;
+    
 }
 
 
 main {
-
-    background-color: black;
-    lightblue;
+    display: flex;
+    align-items: center;
+    text-decoration: underline;
+    background-color: #5bccf6;
     height: 600px;
-    width: 1024;
     font-style: oblique;
-    color: white;
+    color: #030e12;
 }
+
+
 
 
     
 .flex-container {
     display: flex;
-    flex: row;
-    justify-content: space-between;
-    align-items: center;
-        
+    height: 500px;
+    margin: 0 auto;
+    
 }
 
 .herobox1 {
-min-height: 300px;
-width: 55%;
-flex: 2;
+min-height: 400px;
+flex: 2 1 ;
 
 
 }
 
 .herobox2 {
-  
-min-height: 300px;
-width: 33%;
+min-height: 200px;
+flex: 1 2;
 
     
     
 }
 
 .herobox3 {
-    min-height: 300px;
-    width: 33%;
-    flex: 1;
+    min-height: 200px;
+    flex: 1 2;
     
 }
 
 footer {
 
-height: 125px;
-width: 1024;
-align-items: flex-start;
 display: flex; 
+align-items: center;
 justify-content: space-around;
 padding: 25px;
-background-color: gray;
-color: #fff;
+background-color:#1b4d89;
+color: #030e12;
 font-style: oblique;
+
     
     
 }
 
 footer, a {
    
-    color: white;
+    color: #030e12;
 }
+@media (max-width: 768px) {
+     .nav-links {
+        color: purple;
+        flex-direction: column;
+    }
+
+}
+
+@media (max-width: 576px) {
+    .header h1 {
+       color: purple;
+   }
+}
+
+
