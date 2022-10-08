@@ -96,26 +96,7 @@ main {
     
 }
 
-/* .herobox1 { */
-/* min-height: 400px; */
-/* flex: 2 1 ; */
 
-
-}
-
-/* .herobox2 { */
-/* min-height: 200px; */
-/* flex: 1 2; */
-
-    
-    
-}
-
-/* .herobox3 { */
-    /* min-height: 200px; */
-    /* flex: 1 2; */
-    
-}
 
 footer {
 
@@ -123,8 +104,6 @@ display: flex;
 flex: flex-wrap;
 align-content: center;
 justify-content: center;
-height: 125px;
-width: 100%;
 background-color:#1b4d89;
 color: #030e12;
 font-style: oblique;
@@ -144,7 +123,12 @@ footer, a {
     h1 {
         color: darkblue;
     }
-
+    .hide-logo {
+        display: none;
+    }
+    .hide-section{
+        display: none;
+    }
 
 }
 
