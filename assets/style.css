@@ -169,6 +169,10 @@ footer, a {
         .hide-placeholder {
             display: none;
         }
+
+        .hide-logo {
+            display: none;
+        }
     
 }
 
