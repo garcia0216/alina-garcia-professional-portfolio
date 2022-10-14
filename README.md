@@ -1,11 +1,13 @@
-Alina-Garcia Professional-Portfolio
+# Alina-Garcia Professional-Portfolio
 
 
-Description
+# Description
 
-As a new software developer entering the field I want to create a responsive website where I can showcase my work and have potential employers/customers view my work.
+As a new software developer entering the field I wanted to create a responsive website where I can showcase my work to potential employers and customers.
 
-Using HTML and advanced CSS features, I created a website where employers can view my name, picture,contact information and clickable links to view my deployed work.
+Using HTML and advanced CSS features, I created a responsive website.
+
+Created clickable links to my contact and work information.
 
 Utilized the features of flexbox and media queries to adjust website to any screen size.
 
@@ -16,12 +18,12 @@ Added alt attributes to describe all of my images.
 Utilized universal selector in CSS.
 
 
-Links
+## Links
 
 https://garcia0216.github.io/alina-garcia-professional-portfolio/
 
 https://github.com/garcia0216/alina-garcia-professional-portfolio
 
-##Screenshot
+## Screenshot
 
-Screen Shot 2022-10-09 at 3.40.29 PM.png
+Screen Shot 2022-10-13 at 11.35.25 PM.png
