@@ -39,17 +39,11 @@ ul {
     justify-content: space-around;
     align-content: center;
     align-items: center;
-    
-    
-    
-    
-
 }
 
 ul { 
-    /* border: 1px solid white; */
+   
     display: inline;
-    /* width: 90%; */
     justify-content: space-evenly;
 }
 
@@ -68,7 +62,7 @@ ul {
     align-items: center;
     padding: 15px;
     padding-top: 40px;
-    width: 60%;
+    /* width: 60%; */
 
 
 }
@@ -90,7 +84,7 @@ section {
 .main {
     display: flex;
     min-height: 200px;
-    width: 600px;
+    /* width: 600px; */
     font-style: oblique;
     color: #030e12;
     text-underline-position: left;
@@ -102,15 +96,17 @@ section {
 
 
 .main-section-one {
+display: flex;
+flex-wrap: wrap;
+text-decoration: none;
 
-    text-decoration: none;
 
 }
 
 
 .flex-cards {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap; 
     justify-content: space-around;
     align-items: center;
     width: 100%;
@@ -127,7 +123,7 @@ section {
     align-content: center;
     align-items: center;
     height: 125px;
-    width: 100%;
+    /* width: 100%; */
     color: #fcde67;
     background-color: #5b94f6;
    
@@ -153,12 +149,27 @@ a {
 
 /* tablet view */
 @media (max-width: 768px) {
+    /* body {
+        font-size: smaller;
+    } */
     nav {
         flex-direction: column;
     }
 
     header nav ul {
         flex-direction: column;
+    }
+
+    .contact-section, nav, ul {
+        flex-direction: column;
+    }
+
+    .main-section-one {
+        flex-wrap: wrap;
+    }
+
+    section {
+        display: none;
     }
 }
      
@@ -172,6 +183,25 @@ a {
 
     header nav ul {
         flex-direction: column;
+    }
+
+    .contact-section, nav, ul {
+        flex-direction: column;
+    }
+
+    .main{
+        flex-wrap: wrap;
+    }
+
+}
+
+/* Some changes for max-width 375px */
+
+@media (max-width: 413px) {
+    .nav-links ul {
+        font-size: 10px;
+        padding: 5px;
+        padding-top: 20px;
     }
 }
     
